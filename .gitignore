@@ -1,0 +1,31 @@
+# R specific files
+.RData
+.Ruserdata
+*.Rproj.user/
+
+# Large data files (these should be downloaded from Zenodo)
+supple/*.Rdata
+supple/*.sqlite
+supple/*.db
+download/*.Rdata
+download/*.xlsx
+
+# Image files (too large for GitHub)
+www/CID_images/
+www/drug_images/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Shiny server logs
+shiny-server.log
